@@ -102,6 +102,9 @@ CORS_ALLOW_HEADERS = [
     "*",
 ]
 
+# Add the codespace Django REST API endpoint suffix
+CODESPACE_API_SUFFIX = "/api/"
+
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
