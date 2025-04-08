@@ -36,3 +36,8 @@ def api_root(request):
         'leaderboard': '/api/leaderboard/',
         'workouts': '/api/workouts/',
     })
+
+# Add a default route for the root URL
+urlpatterns += [
+    path('', api_root, name='api-root'),
+]
